@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+    <defs>
+        <style>.cls-1,.cls-2{fill:none;stroke:#cd5052;}.cls-1{stroke-linecap:round;stroke-linejoin:round;}</style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <circle class="cls-1" cx="17.5" cy="17.5" r="17"/>
+            <rect class="cls-2" x="11.5" y="11.5" width="12" height="12" rx="1"/>
+        </g>
+    </g>
+</svg>

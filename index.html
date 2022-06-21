@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Understanding Algebraic Expressions</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/plugins/bootstrap-5.1.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/fonts/font.css">
+    <link rel="stylesheet" href="assets/css/themes.css">
+    <link rel="stylesheet" href="assets/css/landing-page.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/lib/guide-tour.css">
+    <link rel="stylesheet" href="assets/css/device.css">
+	<link rel="stylesheet" href="assets/css/wire.css">
+	<link rel="stylesheet" href="assets/css/wire_device.css">
+    
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container-so launch">
+            <!--<img src="Landing_page_01-Desktop.png">-->
+            <!--<img src="assets/images/Pattern.svg">-->
+            <div class="exp_header">
+                <img class="logo" src="assets/images/logo.svg" alt="SCHOOLNET, Learning for life">
+            </div>
+            <div class="launch_pattern">
+                <div class="launch_pattern_img"></div>
+            </div>
+            <div class="launch_pattern_top">
+                <div class="launch_pattern_top_img"></div>
+                <img class="launch_expl_logo" src="assets/images/exploriment-Logo.svg" alt="Exploriments">
+            </div>
+            <div class="launch_expl_title_container">
+                <div class="launch_expl_title">
+                    
+                    <div class="exploriment_title">
+                        <h1 class="titledesktop">Understanding <br> Algebraic Expressions</h1>
+                        <h1 class="titlemobilelandscape">Understanding Algebraic Expressions</h1>
+                        <div class="subtitle">(Wires)</div>
+                    </div>
+                    <div class="launch-btn-container">
+                        <button id="btn_launch" class="btn btn_launch">Launch</button>
+                    </div>
+                </div>
+            </div>
+            <div class="exp_footer">
+                <div class="launch_copyrighttext"><span>&copy; 2022, Schoolnet India Limited</span></div>
+            </div>
+        </div>
+		<div class="blocker1"></div>
+        <div class="container-so main">
+            <div class="exp_header">
+                <div class="header">
+                    <div class="container head-pan-container">
+                        <div class="leftpan">
+                            <img class="activity-page-expl-logo" src="assets/images/exploriment-Logo.svg">
+                            <span class="sub-title"><i>by</i></span>
+                            <img class="main-src-logo" src="assets/images/logo.svg" alt="SCHOOLNET, Learning for life">
+                        </div>
+                        <div class="rightpan">
+                            <h1>
+                                <span class="title">Understanding Algebraic Expressions</span>
+                                <span class="sub-title">(Wires)</span>
+                            </h1>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="btn-theme-wrap">
+                <button id="btn_themes" class="btn btn_themes" title="Themes" data-bs-toggle="modal"
+                    data-bs-target="#themeModalPopup" data-toggle="tooltip" data-placement="bottom">
+                </button>
+            </div>
+            <div class="exp_body">
+                <div class="exp_body_header"></div>
+                <div class="exp_body_content">
+                    <div id="wrapper_continer">
+								
+                                    <div class="currentContent">
+                                        <p class="currentContentTxt">In this exploriment you have to arrange the coloured wires to match the given algebraic expression.</p>
+										 
+                                    </div>
+									
+									<div class="popuptext"><div class="closebtn"></div><span></span>
+									
+									</div>
+									
+                                
+                            
+								<div class="additionfield">
+								<div id="qNo_txtBG">
+								<div id="qNo_txt"></div>
+								<div id="qNo_txtIner">
+								<div id="qtn_txt"></div></div>
+								</div>
+								</div>
+                       
+							<div class="mainStickcontainer">
+							<div class="icons">
+								<div class=" statictitle" id="avalue">a = length of Red wire</div>
+								<div class="sticks redWire_mc" id="redWire_mc" data-id="0" ></div>
+								<div class="field" id="length1_txt"></div>
+							</div>
+							<div class="icons">
+								<div class="statictitle" id="bvalue">b = length of Green wire</div>
+								<div class="sticks greenWire_mc" id="greenWire_mc" data-id="1" ></div>
+								<div class="field" id="length2_txt"></div>
+								
+							</div>
+							<div class="icons">
+								<div class="statictitle" id="cvalue">c = length of Blue wire</div>
+								<div class="sticks blueWire_mc" id="blueWire_mc" data-id="2" ></div>
+								<div class="field" id="length3_txt" ></div>
+								
+							</div>
+							<div class="icons">
+								<div class="statictitle" id="dvalue">d = length of Purple wire</div>
+								<div class="sticks purpleWire_mc" id="purpleWire_mc" data-id="3" ></div>
+								<div class="field" id="length4_txt"></div>
+								
+							</div>
+							<div class="icons">
+								<div class="statictitleunit" id="unitvalue">unit length of wire</div>
+								<div class="sticks unitWire_mc" id="unitWire_mc" data-id="4" ><img class="unit_wire" src="assets/images/Orange_wire.svg"></div>
+								<div class="field" id="lengthUnitWire_txt">1 cm</div>
+								
+							</div>
+							</div>
+                            <div class="graphContainer_wire">
+									<div class="scoreBg">
+									<div id="innertext"><span class="scTest">Score</span></div>
+									<div id="score_txt"><span></span></div>
+									</div>
+									<div id="corrin">
+									<div id="correct_mc"></div>
+									<div id="wrong_mc"></div>
+									</div>
+									<div id="chamber_mc">
+									<div id="chamber_mc_active"></div>
+									<div id="blocker_chamber"></div>
+									<div class= "qtn_txtbg">
+									<div id="chamberExpr_txt"></div>
+									</div>
+									
+									</div>
+	
+                               </div> 
+							   
+                            </div>
+                            <div class="popup info popup_inst">
+                                <div class="containerproc">
+                                  <div class="popuphead container">
+                                    <h2>Instructions</h2>
+                                    <div class="closepopup">
+                                      <button class="btn-close-popup" title="Close">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16.14" height="16.14">
+                                          <g id="Layer_2" data-name="Layer 2">
+                                            <g id="Layer_1-2" data-name="Layer 1">
+                                              <g id="New_Symbol_10" data-name="New Symbol 10">
+                                                <line class="cls-3" x1="15.14" y1="1" x2="1" y2="15.14" />
+                                                <line class="cls-3" x1="15.14" y1="15.14" x2="1" y2="1" />
+                                              </g>
+                                            </g>
+                                          </g>
+                                        </svg>
+                                      </button>
+                                    </div>
+                                  </div>
+                                  <div class="popupcontent">
+                                    <div class="procBox container">
+                    
+                                        <p class="currentContentDesc">Each coloured wire is represented by a letter, for e.g. letter <span class="bodtext">'a'</span> represents the red wire. You are given an algebraic expression, as a question, which is displayed in the text box below.</br></br>Drag and drop the correct wires into the grey-coloured equation chamber and press <span class="bodtext">OK</span>.</br></br>Click <span class="bodtext">Next</span> to go to the next question.</p>
+                                    </div>
+                                   
+                                  </div>
+                                </div>
+                              </div>
+                </div>
+            </div>
+            <div class="exp_footer">
+                <div class="footer">
+                    <div class="footer-menu-container left">
+
+                        <div class="btn-wrap btn-wrap-info">
+                            <button id="btn_info" class="btn btn_info" title="Instructions" data-toggle="tooltip">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="-5 -5 46 46">
+                                <g id="Layer_2" data-name="Layer 2">
+                                  <g id="Layer_1-2" data-name="Layer 1">
+                                    <ellipse class="cls-1" cx="17.5" cy="17.4" rx="17" ry="16.9" />
+                                    <ellipse class="cls-1" cx="17.5" cy="17.4" rx="7.97" ry="7.92" />
+                                    <line class="cls-1" x1="9.99" y1="21.13" x2="3.98" y2="27.11" />
+                                    <line class="cls-1" x1="27.27" y1="3.96" x2="21.26" y2="9.93" />
+                                    <line class="cls-1" x1="14.03" y1="24.59" x2="7.73" y2="30.84" />
+                                    <line class="cls-1" x1="31.02" y1="7.69" x2="24.73" y2="13.94" />
+                                    <line class="cls-1" x1="13.74" y1="9.93" x2="7.73" y2="3.96" />
+                                    <line class="cls-1" x1="31.02" y1="27.11" x2="25.01" y2="21.13" />
+                                    <line class="cls-1" x1="10.27" y1="13.94" x2="3.98" y2="7.69" />
+                                    <line class="cls-1" x1="27.27" y1="30.84" x2="20.97" y2="24.59" />
+                                  </g>
+                                </g>
+                              </svg>
+                            </button>
+                          </div>
+                          <div class="btn-wrap btn-wrap-procedure">
+                          <button id="btn_procedure" class="btn btn_procedure" onclick="resetquestions();">Reset</button>
+                        </div>
+                        
+                        <div class="btn-wrap btn-wrap-calculations">
+                            <button id="btn_calculations" class="btn btn_calculations"  onclick="clickpassValue();">Ok</button>
+
+                        </div>
+                        <div class="btn-wrap btn-wrap-stop">
+                            <button id="btn_stop" class="btn btn_stop" onclick="setSplitIndividualId();">Next</button>
+                        </div>
+                        
+                    </div>
+                    <div class="copyrighttext"><span>&copy; 2022, Schoolnet India Limited</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Theme Modal Popup -->
+    <div class="modal fade themepopup" id="themeModalPopup" tabindex="-1" role="dialog"
+        aria-labelledby="themeModalPopupTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="themeModalPopupTitle">Themes</h2>
+                    <div class="closepopup">
+                        <button class="btn-close-theme-popup" data-bs-dismiss="modal" title="Close">
+                            <svg class="circle circle-1" width="16.14" height="16.14">
+                                <use xlink:href="#closebutton">
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-body custom-radios">
+                    <div class="form-check theme-row">
+                        <input class="form-check-input radioTheme" data-theme-id="green" type="radio" name="radioTheme" id="radioThemeGreen"
+                            checked>
+                        <label class="form-check-label" for="radioThemeGreen">
+                            <span>
+                                <img src="assets/images/check-icn.svg" alt="Checked Icon" />
+                            </span>
+                            Green
+                            <div class="theme-green color-row"><div class="col1"></div><div class="col2"></div><div class="col3"></div></div>
+                        </label>
+                    </div>
+                    <div class="form-check theme-row">
+                        <input class="form-check-input radioTheme" data-theme-id="purple" type="radio" name="radioTheme" id="radioThemePurple"
+                            checked>
+                        <label class="form-check-label" for="radioThemePurple">
+                            <span>
+                                <img src="assets/images/check-icn.svg" alt="Checked Icon" />
+                            </span>
+                            Purple
+                            <div class="theme-purple color-row"><div class="col1"></div><div class="col2"></div><div class="col3"></div></div>
+                        </label>
+                    </div>
+                    <div class="form-check theme-row">
+                        <input class="form-check-input radioTheme" data-theme-id="orange" type="radio" name="radioTheme" id="radioThemeOrange"
+                            checked>
+                        <label class="form-check-label" for="radioThemeOrange">
+                            <span>
+                                <img src="assets/images/check-icn.svg" alt="Checked Icon" />
+                            </span>
+                            Orange
+                            <div class="theme-orange color-row"><div class="col1"></div><div class="col2"></div><div class="col3"></div></div>
+                        </label>
+                    </div>
+                    <div class="form-check theme-row">
+                        <input class="form-check-input radioTheme" data-theme-id="maroon" type="radio" name="radioTheme" id="radioThemeMaroon"
+                            checked>
+                        <label class="form-check-label" for="radioThemeMaroon">
+                            <span>
+                                <img src="assets/images/check-icn.svg" alt="Checked Icon" />
+                            </span>
+                            Maroon
+                            <div class="theme-maroon color-row"><div class="col1"></div><div class="col2"></div><div class="col3"></div></div>
+                        </label>
+                    </div>
+                    <div class="form-check theme-row">
+                        <input class="form-check-input radioTheme" data-theme-id="blue" type="radio" name="radioTheme" id="radioThemeBlue"
+                            checked>
+                        <label class="form-check-label" for="radioThemeBlue">
+                            <span>
+                                <img src="assets/images/check-icn.svg" alt="Checked Icon" />
+                            </span>
+                            Blue
+                            <div class="theme-blue color-row"><div class="col1"></div><div class="col2"></div><div class="col3"></div></div>
+                        </label>
+                    </div>
+                    <div class="form-check theme-row">
+                        <input class="form-check-input radioTheme" data-theme-id="black" type="radio" name="radioTheme" id="radioThemeBlack"
+                            checked>
+                        <label class="form-check-label" for="radioThemeBlack">
+                            <span>
+                                <img src="assets/images/check-icn.svg" alt="Checked Icon" />
+                            </span>
+                            Black
+                            <div class="theme-black color-row"><div class="col1"></div><div class="col2"></div><div class="col3"></div></div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Best Viewed Poup msg-->
+    <div class="modal fade" tabindex="-1" role="dialog" id="bestviewed_popup_msg">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content" style="border: 0px;">
+            <div class="modal-body" style="text-align: center;">
+                <p><img src="assets/images/phone-portrait-pngrepo-com.png" width="100px"></p> 
+                <p>This Activity is best viewed in portrait orientation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="preloader">
+         <div class="preloadpanel">
+            <div class="preloadingInstr">
+                <div class="progress"></div>
+                <div class="progress-text">
+                    Loading... 100%
+                </div>
+            </div>
+        </div> 
+      </div>
+    <!-- Close Button SVG -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;" width="16.14" height="16.14">
+        <symbol id="closebutton" viewBox="0 0 16.14 16.14">
+        <g id="Layer_2" data-name="Layer 2">
+            <g id="Layer_1-2" data-name="Layer 1">
+                <g id="New_Symbol_10" data-name="New Symbol 10">
+                    <line class="cls-3" x1="15.14" y1="1" x2="1" y2="15.14"/>
+                    <line class="cls-3" x1="15.14" y1="15.14" x2="1" y2="1"/>
+                </g>
+            </g>
+        </g>
+    </symbol>
+    </svg>
+
+    <script src="assets/plugins/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="assets/plugins/jquery-ui-touch/jquery.ui.touch.js"></script>
+    <script src="assets/plugins/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/preloader.js"></script>
+   <script src="assets/js/themes.js"></script>
+ <script src="assets/lib/guide-tour.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/wire.js"></script>
+</body>
+
+</html>
