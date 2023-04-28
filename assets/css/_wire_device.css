@@ -63,13 +63,13 @@
 
 @media screen and (orientation:portrait) and (min-device-height: 960px) {
 	.activity-page-expl-logo{padding: 5px 10px 23px 16px;}
-	.container-so.main .exp_header .header h1 .title, .container-so.main .exp_header .header h1 .sub-title{width: 88%;}
+	.container-so.main .exp_header .header h1 .title, .container-so.main .exp_header .header h1 .sub-title{width: 86%;}
 	.container-so.main .exp_header .header h1 .sub-title{font-size: 14px;}
 	thead, tbody, tfoot, tr, td, th{padding: 4px; display: revert;}
 	#explain_mc .graphicssticks #stickspop{display:inline-block; float:left;}
 	.activity-page-expl-logo{padding: 13px 10px 13px 16px;}
 	.container-so.main .exp_header .header .rightpan{padding-top:0px;}
-	.container-so.main .exp_header .header .leftpan{min-width:353px;}
+	.container-so.main .exp_header .header .leftpan{min-width:347px;}
   }
 
   
